@@ -1,0 +1,6 @@
+input[value="alexandre" i] ~ #results #result15,
+input[value="alexandre" i] ~ #results #result16,
+input[value="alexandre" i] ~ #results #result17 {
+  display: block; }
+
+/*# sourceMappingURL=a.css.map */

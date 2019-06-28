@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Search Engine</title>
+</head>
+<style>
+    #result0:before {
+        content: 'Aurora'
+    }
+    
+    #result1:before {
+        content: 'Burora'
+    }
+    
+    #result2:before {
+        content: 'Curora'
+    }
+    
+    #result3:before {
+        content: 'Durora'
+    }
+    
+    #result4:before {
+        content: 'Eurora'
+    }
+    
+    #result5:before {
+        content: 'Furora'
+    }
+    
+    #result6:before {
+        content: 'Gurora'
+    }
+    
+    #result7:before {
+        content: 'Hurora'
+    }
+    
+    #result8:before {
+        content: 'Iurora'
+    }
+    
+    #result9:before {
+        content: 'Jurora'
+    }
+    
+    #result10:before {
+        content: 'Kurora'
+    }
+    
+    #result div {
+        display: none
+    }
+    
+    input[value="alexandre"i]~#results #result1,
+    input[value="alexandre"i]~#results #result2,
+    input[value="alexandre"i]~#results #result3 {
+        display: block;
+    }
+</style>
+
+<body>
+    <input type="search" value="Tim" oninput="this.setAttribute('value', this.value)" />
+    <div id="result">
+        <div id="result1"></div>
+        <div id="result2"></div>
+        <div id="result3"></div>
+        <div id="result4"></div>
+        <div id="result5"></div>
+        <div id="result6"></div>
+        <div id="result7"></div>
+        <div id="result8"></div>
+        <div id="result9"></div>
+        <div id="result10"></div>
+
+
+    </div>
+
+</body>
+
+</html>
